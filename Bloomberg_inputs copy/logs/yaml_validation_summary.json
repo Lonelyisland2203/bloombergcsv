@@ -1,0 +1,14 @@
+{
+  "yaml_file": "config/bloomberg_fields.yaml",
+  "total_fields": 46,
+  "critical_fields": 27,
+  "field_groups": 8,
+  "override_type_distribution": {
+    "END_DT_OVERRIDE": 19,
+    "FUND_PER": 19,
+    "none": 3,
+    "bulk": 5
+  },
+  "validation_status": "PASSED",
+  "validation_issues": 0
+}

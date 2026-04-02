@@ -1,0 +1,1084 @@
+2026-04-01 17:40:05,220 - run_all - WARNING - Ticker conversion failed for INVALID: Invalid TSE ticker format: 'INVALID'. Expected format: NNNN.T or NNNNJ.T (must end with '.T')
+2026-04-01 17:40:05,220 - run_all - WARNING - Ticker conversion failed for INVALID: Invalid TSE ticker format: 'INVALID'. Expected format: NNNN.T or NNNNJ.T (must end with '.T')
+2026-04-01 17:40:05,220 - run_all - WARNING - Ticker conversion failed for INVALID: Invalid TSE ticker format: 'INVALID'. Expected format: NNNN.T or NNNNJ.T (must end with '.T')
+2026-04-01 17:40:05,220 - run_all - WARNING - Ticker conversion failed for 1 securities
+2026-04-01 17:40:05,220 - run_all - WARNING - Ticker conversion failed for 1 securities
+2026-04-01 17:40:05,220 - run_all - WARNING - Ticker conversion failed for 1 securities
+2026-04-01 17:40:05,226 - run_all - WARNING - Missing FYE month for 7157 JP Equity, defaulting to March (3)
+2026-04-01 17:40:05,226 - run_all - WARNING - Missing FYE month for 7157 JP Equity, defaulting to March (3)
+2026-04-01 17:40:05,226 - run_all - WARNING - Missing FYE month for 7157 JP Equity, defaulting to March (3)
+2026-04-01 17:40:05,226 - run_all - WARNING - Missing FYE month for 7157 JP Equity, defaulting to March (3)
+2026-04-01 17:40:05,226 - run_all - WARNING - Missing FYE month for 7157 JP Equity, defaulting to March (3)
+2026-04-01 17:40:05,253 - run_all - ERROR - Pipeline execution failed: Bloomberg Terminal not running
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 268, in run
+    self.session.start()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Bloomberg Terminal not running
+2026-04-01 17:40:05,253 - run_all - ERROR - Pipeline execution failed: Bloomberg Terminal not running
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 268, in run
+    self.session.start()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Bloomberg Terminal not running
+2026-04-01 17:40:05,253 - run_all - ERROR - Pipeline execution failed: Bloomberg Terminal not running
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 268, in run
+    self.session.start()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Bloomberg Terminal not running
+2026-04-01 17:40:05,253 - run_all - ERROR - Pipeline execution failed: Bloomberg Terminal not running
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 268, in run
+    self.session.start()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Bloomberg Terminal not running
+2026-04-01 17:40:05,253 - run_all - ERROR - Pipeline execution failed: Bloomberg Terminal not running
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 268, in run
+    self.session.start()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Bloomberg Terminal not running
+2026-04-01 17:40:05,253 - run_all - ERROR - Pipeline execution failed: Bloomberg Terminal not running
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 268, in run
+    self.session.start()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Bloomberg Terminal not running
+2026-04-01 17:40:05,253 - run_all - ERROR - Pipeline execution failed: Bloomberg Terminal not running
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 268, in run
+    self.session.start()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Bloomberg Terminal not running
+2026-04-01 17:40:05,253 - run_all - ERROR - Pipeline execution failed: Bloomberg Terminal not running
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 268, in run
+    self.session.start()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Bloomberg Terminal not running
+2026-04-01 17:40:05,253 - run_all - ERROR - Pipeline execution failed: Bloomberg Terminal not running
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 268, in run
+    self.session.start()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Bloomberg Terminal not running
+2026-04-01 17:40:05,253 - run_all - ERROR - Pipeline execution failed: Bloomberg Terminal not running
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 268, in run
+    self.session.start()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Bloomberg Terminal not running
+2026-04-01 17:40:05,253 - run_all - ERROR - Pipeline execution failed: Bloomberg Terminal not running
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 268, in run
+    self.session.start()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Bloomberg Terminal not running
+2026-04-01 17:40:05,253 - run_all - ERROR - Pipeline execution failed: Bloomberg Terminal not running
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 268, in run
+    self.session.start()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Bloomberg Terminal not running
+2026-04-01 17:40:05,253 - run_all - ERROR - Pipeline execution failed: Bloomberg Terminal not running
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 268, in run
+    self.session.start()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Bloomberg Terminal not running
+2026-04-01 17:40:05,253 - run_all - ERROR - Pipeline execution failed: Bloomberg Terminal not running
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 268, in run
+    self.session.start()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Bloomberg Terminal not running
+2026-04-01 17:40:05,268 - run_all - ERROR - Pipeline execution failed: Data extraction failed
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 288, in run
+    ) = self._extract_all_data(targets)
+        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 529, in _extract_all_data
+    return self._extract_all_data_sequential(targets)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 538, in _extract_all_data_sequential
+    snapshot_df = snapshot_extractor.extract_for_targets(targets)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Data extraction failed
+2026-04-01 17:40:05,268 - run_all - ERROR - Pipeline execution failed: Data extraction failed
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 288, in run
+    ) = self._extract_all_data(targets)
+        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 529, in _extract_all_data
+    return self._extract_all_data_sequential(targets)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 538, in _extract_all_data_sequential
+    snapshot_df = snapshot_extractor.extract_for_targets(targets)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Data extraction failed
+2026-04-01 17:40:05,268 - run_all - ERROR - Pipeline execution failed: Data extraction failed
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 288, in run
+    ) = self._extract_all_data(targets)
+        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 529, in _extract_all_data
+    return self._extract_all_data_sequential(targets)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 538, in _extract_all_data_sequential
+    snapshot_df = snapshot_extractor.extract_for_targets(targets)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Data extraction failed
+2026-04-01 17:40:05,268 - run_all - ERROR - Pipeline execution failed: Data extraction failed
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 288, in run
+    ) = self._extract_all_data(targets)
+        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 529, in _extract_all_data
+    return self._extract_all_data_sequential(targets)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 538, in _extract_all_data_sequential
+    snapshot_df = snapshot_extractor.extract_for_targets(targets)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Data extraction failed
+2026-04-01 17:40:05,268 - run_all - ERROR - Pipeline execution failed: Data extraction failed
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 288, in run
+    ) = self._extract_all_data(targets)
+        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 529, in _extract_all_data
+    return self._extract_all_data_sequential(targets)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 538, in _extract_all_data_sequential
+    snapshot_df = snapshot_extractor.extract_for_targets(targets)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Data extraction failed
+2026-04-01 17:40:05,268 - run_all - ERROR - Pipeline execution failed: Data extraction failed
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 288, in run
+    ) = self._extract_all_data(targets)
+        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 529, in _extract_all_data
+    return self._extract_all_data_sequential(targets)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 538, in _extract_all_data_sequential
+    snapshot_df = snapshot_extractor.extract_for_targets(targets)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Data extraction failed
+2026-04-01 17:40:05,268 - run_all - ERROR - Pipeline execution failed: Data extraction failed
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 288, in run
+    ) = self._extract_all_data(targets)
+        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 529, in _extract_all_data
+    return self._extract_all_data_sequential(targets)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 538, in _extract_all_data_sequential
+    snapshot_df = snapshot_extractor.extract_for_targets(targets)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Data extraction failed
+2026-04-01 17:40:05,268 - run_all - ERROR - Pipeline execution failed: Data extraction failed
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 288, in run
+    ) = self._extract_all_data(targets)
+        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 529, in _extract_all_data
+    return self._extract_all_data_sequential(targets)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 538, in _extract_all_data_sequential
+    snapshot_df = snapshot_extractor.extract_for_targets(targets)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Data extraction failed
+2026-04-01 17:40:05,268 - run_all - ERROR - Pipeline execution failed: Data extraction failed
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 288, in run
+    ) = self._extract_all_data(targets)
+        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 529, in _extract_all_data
+    return self._extract_all_data_sequential(targets)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 538, in _extract_all_data_sequential
+    snapshot_df = snapshot_extractor.extract_for_targets(targets)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Data extraction failed
+2026-04-01 17:40:05,268 - run_all - ERROR - Pipeline execution failed: Data extraction failed
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 288, in run
+    ) = self._extract_all_data(targets)
+        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 529, in _extract_all_data
+    return self._extract_all_data_sequential(targets)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 538, in _extract_all_data_sequential
+    snapshot_df = snapshot_extractor.extract_for_targets(targets)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Data extraction failed
+2026-04-01 17:40:05,268 - run_all - ERROR - Pipeline execution failed: Data extraction failed
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 288, in run
+    ) = self._extract_all_data(targets)
+        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 529, in _extract_all_data
+    return self._extract_all_data_sequential(targets)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 538, in _extract_all_data_sequential
+    snapshot_df = snapshot_extractor.extract_for_targets(targets)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Data extraction failed
+2026-04-01 17:40:05,268 - run_all - ERROR - Pipeline execution failed: Data extraction failed
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 288, in run
+    ) = self._extract_all_data(targets)
+        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 529, in _extract_all_data
+    return self._extract_all_data_sequential(targets)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 538, in _extract_all_data_sequential
+    snapshot_df = snapshot_extractor.extract_for_targets(targets)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Data extraction failed
+2026-04-01 17:40:05,268 - run_all - ERROR - Pipeline execution failed: Data extraction failed
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 288, in run
+    ) = self._extract_all_data(targets)
+        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 529, in _extract_all_data
+    return self._extract_all_data_sequential(targets)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 538, in _extract_all_data_sequential
+    snapshot_df = snapshot_extractor.extract_for_targets(targets)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Data extraction failed
+2026-04-01 17:40:05,268 - run_all - ERROR - Pipeline execution failed: Data extraction failed
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 288, in run
+    ) = self._extract_all_data(targets)
+        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 529, in _extract_all_data
+    return self._extract_all_data_sequential(targets)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 538, in _extract_all_data_sequential
+    snapshot_df = snapshot_extractor.extract_for_targets(targets)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Data extraction failed
+2026-04-01 17:40:05,268 - run_all - ERROR - Pipeline execution failed: Data extraction failed
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 288, in run
+    ) = self._extract_all_data(targets)
+        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 529, in _extract_all_data
+    return self._extract_all_data_sequential(targets)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 538, in _extract_all_data_sequential
+    snapshot_df = snapshot_extractor.extract_for_targets(targets)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Data extraction failed
+2026-04-01 17:40:05,274 - run_all - WARNING - Pipeline completed with 1 failed extractions
+2026-04-01 17:40:05,274 - run_all - WARNING - Pipeline completed with 1 failed extractions
+2026-04-01 17:40:05,274 - run_all - WARNING - Pipeline completed with 1 failed extractions
+2026-04-01 17:40:05,274 - run_all - WARNING - Pipeline completed with 1 failed extractions
+2026-04-01 17:40:05,274 - run_all - WARNING - Pipeline completed with 1 failed extractions
+2026-04-01 17:40:05,274 - run_all - WARNING - Pipeline completed with 1 failed extractions
+2026-04-01 17:40:05,274 - run_all - WARNING - Pipeline completed with 1 failed extractions
+2026-04-01 17:40:05,274 - run_all - WARNING - Pipeline completed with 1 failed extractions
+2026-04-01 17:40:05,274 - run_all - WARNING - Pipeline completed with 1 failed extractions
+2026-04-01 17:40:05,274 - run_all - WARNING - Pipeline completed with 1 failed extractions
+2026-04-01 17:40:05,274 - run_all - WARNING - Pipeline completed with 1 failed extractions
+2026-04-01 17:40:05,274 - run_all - WARNING - Pipeline completed with 1 failed extractions
+2026-04-01 17:40:05,274 - run_all - WARNING - Pipeline completed with 1 failed extractions
+2026-04-01 17:40:05,274 - run_all - WARNING - Pipeline completed with 1 failed extractions
+2026-04-01 17:40:05,274 - run_all - WARNING - Pipeline completed with 1 failed extractions
+2026-04-01 17:40:05,279 - run_all - ERROR - Pipeline execution failed: Pipeline failed
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 905, in main
+    summary = orchestrator.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Pipeline failed
+2026-04-01 17:40:05,279 - run_all - ERROR - Pipeline execution failed: Pipeline failed
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 905, in main
+    summary = orchestrator.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Pipeline failed
+2026-04-01 17:40:05,279 - run_all - ERROR - Pipeline execution failed: Pipeline failed
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 905, in main
+    summary = orchestrator.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Pipeline failed
+2026-04-01 17:40:05,279 - run_all - ERROR - Pipeline execution failed: Pipeline failed
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 905, in main
+    summary = orchestrator.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Pipeline failed
+2026-04-01 17:40:05,279 - run_all - ERROR - Pipeline execution failed: Pipeline failed
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 905, in main
+    summary = orchestrator.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Pipeline failed
+2026-04-01 17:40:05,279 - run_all - ERROR - Pipeline execution failed: Pipeline failed
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 905, in main
+    summary = orchestrator.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Pipeline failed
+2026-04-01 17:40:05,279 - run_all - ERROR - Pipeline execution failed: Pipeline failed
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 905, in main
+    summary = orchestrator.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Pipeline failed
+2026-04-01 17:40:05,279 - run_all - ERROR - Pipeline execution failed: Pipeline failed
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 905, in main
+    summary = orchestrator.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Pipeline failed
+2026-04-01 17:40:05,279 - run_all - ERROR - Pipeline execution failed: Pipeline failed
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 905, in main
+    summary = orchestrator.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Pipeline failed
+2026-04-01 17:40:05,279 - run_all - ERROR - Pipeline execution failed: Pipeline failed
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 905, in main
+    summary = orchestrator.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Pipeline failed
+2026-04-01 17:40:05,279 - run_all - ERROR - Pipeline execution failed: Pipeline failed
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 905, in main
+    summary = orchestrator.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Pipeline failed
+2026-04-01 17:40:05,279 - run_all - ERROR - Pipeline execution failed: Pipeline failed
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 905, in main
+    summary = orchestrator.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Pipeline failed
+2026-04-01 17:40:05,279 - run_all - ERROR - Pipeline execution failed: Pipeline failed
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 905, in main
+    summary = orchestrator.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Pipeline failed
+2026-04-01 17:40:05,279 - run_all - ERROR - Pipeline execution failed: Pipeline failed
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 905, in main
+    summary = orchestrator.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Pipeline failed
+2026-04-01 17:40:05,279 - run_all - ERROR - Pipeline execution failed: Pipeline failed
+Traceback (most recent call last):
+  File "/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/src/run_all.py", line 905, in main
+    summary = orchestrator.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/unittest/mock.py", line 1228, in _execute_mock_call
+    raise effect
+Exception: Pipeline failed
+2026-04-01 17:40:05,281 - run_all - WARNING - 
+Pipeline execution interrupted by user
+2026-04-01 17:40:05,281 - run_all - WARNING - 
+Pipeline execution interrupted by user
+2026-04-01 17:40:05,281 - run_all - WARNING - 
+Pipeline execution interrupted by user
+2026-04-01 17:40:05,281 - run_all - WARNING - 
+Pipeline execution interrupted by user
+2026-04-01 17:40:05,281 - run_all - WARNING - 
+Pipeline execution interrupted by user
+2026-04-01 17:40:05,281 - run_all - WARNING - 
+Pipeline execution interrupted by user
+2026-04-01 17:40:05,281 - run_all - WARNING - 
+Pipeline execution interrupted by user
+2026-04-01 17:40:05,281 - run_all - WARNING - 
+Pipeline execution interrupted by user
+2026-04-01 17:40:05,281 - run_all - WARNING - 
+Pipeline execution interrupted by user
+2026-04-01 17:40:05,281 - run_all - WARNING - 
+Pipeline execution interrupted by user
+2026-04-01 17:40:05,281 - run_all - WARNING - 
+Pipeline execution interrupted by user
+2026-04-01 17:40:05,281 - run_all - WARNING - 
+Pipeline execution interrupted by user
+2026-04-01 17:40:05,281 - run_all - WARNING - 
+Pipeline execution interrupted by user
+2026-04-01 17:40:05,281 - run_all - WARNING - 
+Pipeline execution interrupted by user
+2026-04-01 17:40:05,281 - run_all - WARNING - 
+Pipeline execution interrupted by user
+2026-04-01 17:40:05,284 - run_all - INFO - Logging initialized. Log file: /Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/logs/pipeline_execution_20260401_174005.log
+2026-04-01 17:40:05,284 - run_all - INFO - Logging initialized. Log file: /Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/logs/pipeline_execution_20260401_174005.log
+2026-04-01 17:40:05,284 - run_all - INFO - Logging initialized. Log file: /Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/logs/pipeline_execution_20260401_174005.log
+2026-04-01 17:40:05,284 - run_all - INFO - Logging initialized. Log file: /Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/logs/pipeline_execution_20260401_174005.log
+2026-04-01 17:40:05,284 - run_all - INFO - Logging initialized. Log file: /Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/logs/pipeline_execution_20260401_174005.log
+2026-04-01 17:40:05,284 - run_all - INFO - Logging initialized. Log file: /Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/logs/pipeline_execution_20260401_174005.log
+2026-04-01 17:40:05,284 - run_all - INFO - Logging initialized. Log file: /Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/logs/pipeline_execution_20260401_174005.log
+2026-04-01 17:40:05,284 - run_all - INFO - Logging initialized. Log file: /Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/logs/pipeline_execution_20260401_174005.log
+2026-04-01 17:40:05,284 - run_all - INFO - Logging initialized. Log file: /Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/logs/pipeline_execution_20260401_174005.log
+2026-04-01 17:40:05,284 - run_all - INFO - Logging initialized. Log file: /Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/logs/pipeline_execution_20260401_174005.log
+2026-04-01 17:40:05,284 - run_all - INFO - Logging initialized. Log file: /Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/logs/pipeline_execution_20260401_174005.log
+2026-04-01 17:40:05,284 - run_all - INFO - Logging initialized. Log file: /Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/logs/pipeline_execution_20260401_174005.log
+2026-04-01 17:40:05,284 - run_all - INFO - Logging initialized. Log file: /Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/logs/pipeline_execution_20260401_174005.log
+2026-04-01 17:40:05,284 - run_all - INFO - Logging initialized. Log file: /Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/logs/pipeline_execution_20260401_174005.log
+2026-04-01 17:40:05,284 - run_all - INFO - Logging initialized. Log file: /Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/logs/pipeline_execution_20260401_174005.log
+2026-04-01 17:40:05,284 - run_all - INFO - Logging initialized. Log file: /Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/logs/pipeline_execution_20260401_174005.log
+2026-04-01 17:40:05,284 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,284 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,284 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,284 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,284 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,284 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,284 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,284 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,284 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,284 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,284 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,284 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,284 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,284 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,284 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,284 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,284 - run_all - INFO - Bloomberg Activist Data Pipeline - Orchestration Layer
+2026-04-01 17:40:05,284 - run_all - INFO - Bloomberg Activist Data Pipeline - Orchestration Layer
+2026-04-01 17:40:05,284 - run_all - INFO - Bloomberg Activist Data Pipeline - Orchestration Layer
+2026-04-01 17:40:05,284 - run_all - INFO - Bloomberg Activist Data Pipeline - Orchestration Layer
+2026-04-01 17:40:05,284 - run_all - INFO - Bloomberg Activist Data Pipeline - Orchestration Layer
+2026-04-01 17:40:05,284 - run_all - INFO - Bloomberg Activist Data Pipeline - Orchestration Layer
+2026-04-01 17:40:05,284 - run_all - INFO - Bloomberg Activist Data Pipeline - Orchestration Layer
+2026-04-01 17:40:05,284 - run_all - INFO - Bloomberg Activist Data Pipeline - Orchestration Layer
+2026-04-01 17:40:05,284 - run_all - INFO - Bloomberg Activist Data Pipeline - Orchestration Layer
+2026-04-01 17:40:05,284 - run_all - INFO - Bloomberg Activist Data Pipeline - Orchestration Layer
+2026-04-01 17:40:05,284 - run_all - INFO - Bloomberg Activist Data Pipeline - Orchestration Layer
+2026-04-01 17:40:05,284 - run_all - INFO - Bloomberg Activist Data Pipeline - Orchestration Layer
+2026-04-01 17:40:05,284 - run_all - INFO - Bloomberg Activist Data Pipeline - Orchestration Layer
+2026-04-01 17:40:05,284 - run_all - INFO - Bloomberg Activist Data Pipeline - Orchestration Layer
+2026-04-01 17:40:05,284 - run_all - INFO - Bloomberg Activist Data Pipeline - Orchestration Layer
+2026-04-01 17:40:05,284 - run_all - INFO - Bloomberg Activist Data Pipeline - Orchestration Layer
+2026-04-01 17:40:05,284 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,284 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,284 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,284 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,284 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,284 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,284 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,284 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,284 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,284 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,284 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,284 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,284 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,284 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,284 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,284 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,284 - run_all - INFO - Input CSV: /private/var/folders/pb/x147ntzn0hl3kvbw54mlqwqh0000gn/T/pytest-of-javierlee/pytest-22/test_pipeline_execution_time_l0/test_input.csv
+2026-04-01 17:40:05,284 - run_all - INFO - Input CSV: /private/var/folders/pb/x147ntzn0hl3kvbw54mlqwqh0000gn/T/pytest-of-javierlee/pytest-22/test_pipeline_execution_time_l0/test_input.csv
+2026-04-01 17:40:05,284 - run_all - INFO - Input CSV: /private/var/folders/pb/x147ntzn0hl3kvbw54mlqwqh0000gn/T/pytest-of-javierlee/pytest-22/test_pipeline_execution_time_l0/test_input.csv
+2026-04-01 17:40:05,284 - run_all - INFO - Input CSV: /private/var/folders/pb/x147ntzn0hl3kvbw54mlqwqh0000gn/T/pytest-of-javierlee/pytest-22/test_pipeline_execution_time_l0/test_input.csv
+2026-04-01 17:40:05,284 - run_all - INFO - Input CSV: /private/var/folders/pb/x147ntzn0hl3kvbw54mlqwqh0000gn/T/pytest-of-javierlee/pytest-22/test_pipeline_execution_time_l0/test_input.csv
+2026-04-01 17:40:05,284 - run_all - INFO - Input CSV: /private/var/folders/pb/x147ntzn0hl3kvbw54mlqwqh0000gn/T/pytest-of-javierlee/pytest-22/test_pipeline_execution_time_l0/test_input.csv
+2026-04-01 17:40:05,284 - run_all - INFO - Input CSV: /private/var/folders/pb/x147ntzn0hl3kvbw54mlqwqh0000gn/T/pytest-of-javierlee/pytest-22/test_pipeline_execution_time_l0/test_input.csv
+2026-04-01 17:40:05,284 - run_all - INFO - Input CSV: /private/var/folders/pb/x147ntzn0hl3kvbw54mlqwqh0000gn/T/pytest-of-javierlee/pytest-22/test_pipeline_execution_time_l0/test_input.csv
+2026-04-01 17:40:05,284 - run_all - INFO - Input CSV: /private/var/folders/pb/x147ntzn0hl3kvbw54mlqwqh0000gn/T/pytest-of-javierlee/pytest-22/test_pipeline_execution_time_l0/test_input.csv
+2026-04-01 17:40:05,284 - run_all - INFO - Input CSV: /private/var/folders/pb/x147ntzn0hl3kvbw54mlqwqh0000gn/T/pytest-of-javierlee/pytest-22/test_pipeline_execution_time_l0/test_input.csv
+2026-04-01 17:40:05,284 - run_all - INFO - Input CSV: /private/var/folders/pb/x147ntzn0hl3kvbw54mlqwqh0000gn/T/pytest-of-javierlee/pytest-22/test_pipeline_execution_time_l0/test_input.csv
+2026-04-01 17:40:05,284 - run_all - INFO - Input CSV: /private/var/folders/pb/x147ntzn0hl3kvbw54mlqwqh0000gn/T/pytest-of-javierlee/pytest-22/test_pipeline_execution_time_l0/test_input.csv
+2026-04-01 17:40:05,284 - run_all - INFO - Input CSV: /private/var/folders/pb/x147ntzn0hl3kvbw54mlqwqh0000gn/T/pytest-of-javierlee/pytest-22/test_pipeline_execution_time_l0/test_input.csv
+2026-04-01 17:40:05,284 - run_all - INFO - Input CSV: /private/var/folders/pb/x147ntzn0hl3kvbw54mlqwqh0000gn/T/pytest-of-javierlee/pytest-22/test_pipeline_execution_time_l0/test_input.csv
+2026-04-01 17:40:05,284 - run_all - INFO - Input CSV: /private/var/folders/pb/x147ntzn0hl3kvbw54mlqwqh0000gn/T/pytest-of-javierlee/pytest-22/test_pipeline_execution_time_l0/test_input.csv
+2026-04-01 17:40:05,284 - run_all - INFO - Input CSV: /private/var/folders/pb/x147ntzn0hl3kvbw54mlqwqh0000gn/T/pytest-of-javierlee/pytest-22/test_pipeline_execution_time_l0/test_input.csv
+2026-04-01 17:40:05,284 - run_all - INFO - Activist: Test
+2026-04-01 17:40:05,284 - run_all - INFO - Activist: Test
+2026-04-01 17:40:05,284 - run_all - INFO - Activist: Test
+2026-04-01 17:40:05,284 - run_all - INFO - Activist: Test
+2026-04-01 17:40:05,284 - run_all - INFO - Activist: Test
+2026-04-01 17:40:05,284 - run_all - INFO - Activist: Test
+2026-04-01 17:40:05,284 - run_all - INFO - Activist: Test
+2026-04-01 17:40:05,284 - run_all - INFO - Activist: Test
+2026-04-01 17:40:05,284 - run_all - INFO - Activist: Test
+2026-04-01 17:40:05,284 - run_all - INFO - Activist: Test
+2026-04-01 17:40:05,284 - run_all - INFO - Activist: Test
+2026-04-01 17:40:05,284 - run_all - INFO - Activist: Test
+2026-04-01 17:40:05,284 - run_all - INFO - Activist: Test
+2026-04-01 17:40:05,284 - run_all - INFO - Activist: Test
+2026-04-01 17:40:05,284 - run_all - INFO - Activist: Test
+2026-04-01 17:40:05,284 - run_all - INFO - Activist: Test
+2026-04-01 17:40:05,285 - run_all - INFO - Output: /Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/output/test_bloomberg_data_20260401.xlsx
+2026-04-01 17:40:05,285 - run_all - INFO - Output: /Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/output/test_bloomberg_data_20260401.xlsx
+2026-04-01 17:40:05,285 - run_all - INFO - Output: /Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/output/test_bloomberg_data_20260401.xlsx
+2026-04-01 17:40:05,285 - run_all - INFO - Output: /Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/output/test_bloomberg_data_20260401.xlsx
+2026-04-01 17:40:05,285 - run_all - INFO - Output: /Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/output/test_bloomberg_data_20260401.xlsx
+2026-04-01 17:40:05,285 - run_all - INFO - Output: /Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/output/test_bloomberg_data_20260401.xlsx
+2026-04-01 17:40:05,285 - run_all - INFO - Output: /Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/output/test_bloomberg_data_20260401.xlsx
+2026-04-01 17:40:05,285 - run_all - INFO - Output: /Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/output/test_bloomberg_data_20260401.xlsx
+2026-04-01 17:40:05,285 - run_all - INFO - Output: /Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/output/test_bloomberg_data_20260401.xlsx
+2026-04-01 17:40:05,285 - run_all - INFO - Output: /Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/output/test_bloomberg_data_20260401.xlsx
+2026-04-01 17:40:05,285 - run_all - INFO - Output: /Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/output/test_bloomberg_data_20260401.xlsx
+2026-04-01 17:40:05,285 - run_all - INFO - Output: /Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/output/test_bloomberg_data_20260401.xlsx
+2026-04-01 17:40:05,285 - run_all - INFO - Output: /Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/output/test_bloomberg_data_20260401.xlsx
+2026-04-01 17:40:05,285 - run_all - INFO - Output: /Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/output/test_bloomberg_data_20260401.xlsx
+2026-04-01 17:40:05,285 - run_all - INFO - Output: /Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/output/test_bloomberg_data_20260401.xlsx
+2026-04-01 17:40:05,285 - run_all - INFO - Output: /Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/output/test_bloomberg_data_20260401.xlsx
+2026-04-01 17:40:05,285 - run_all - INFO - Parallel Execution: False
+2026-04-01 17:40:05,285 - run_all - INFO - Parallel Execution: False
+2026-04-01 17:40:05,285 - run_all - INFO - Parallel Execution: False
+2026-04-01 17:40:05,285 - run_all - INFO - Parallel Execution: False
+2026-04-01 17:40:05,285 - run_all - INFO - Parallel Execution: False
+2026-04-01 17:40:05,285 - run_all - INFO - Parallel Execution: False
+2026-04-01 17:40:05,285 - run_all - INFO - Parallel Execution: False
+2026-04-01 17:40:05,285 - run_all - INFO - Parallel Execution: False
+2026-04-01 17:40:05,285 - run_all - INFO - Parallel Execution: False
+2026-04-01 17:40:05,285 - run_all - INFO - Parallel Execution: False
+2026-04-01 17:40:05,285 - run_all - INFO - Parallel Execution: False
+2026-04-01 17:40:05,285 - run_all - INFO - Parallel Execution: False
+2026-04-01 17:40:05,285 - run_all - INFO - Parallel Execution: False
+2026-04-01 17:40:05,285 - run_all - INFO - Parallel Execution: False
+2026-04-01 17:40:05,285 - run_all - INFO - Parallel Execution: False
+2026-04-01 17:40:05,285 - run_all - INFO - Parallel Execution: False
+2026-04-01 17:40:05,285 - run_all - INFO - Dry Run: True
+2026-04-01 17:40:05,285 - run_all - INFO - Dry Run: True
+2026-04-01 17:40:05,285 - run_all - INFO - Dry Run: True
+2026-04-01 17:40:05,285 - run_all - INFO - Dry Run: True
+2026-04-01 17:40:05,285 - run_all - INFO - Dry Run: True
+2026-04-01 17:40:05,285 - run_all - INFO - Dry Run: True
+2026-04-01 17:40:05,285 - run_all - INFO - Dry Run: True
+2026-04-01 17:40:05,285 - run_all - INFO - Dry Run: True
+2026-04-01 17:40:05,285 - run_all - INFO - Dry Run: True
+2026-04-01 17:40:05,285 - run_all - INFO - Dry Run: True
+2026-04-01 17:40:05,285 - run_all - INFO - Dry Run: True
+2026-04-01 17:40:05,285 - run_all - INFO - Dry Run: True
+2026-04-01 17:40:05,285 - run_all - INFO - Dry Run: True
+2026-04-01 17:40:05,285 - run_all - INFO - Dry Run: True
+2026-04-01 17:40:05,285 - run_all - INFO - Dry Run: True
+2026-04-01 17:40:05,285 - run_all - INFO - Dry Run: True
+2026-04-01 17:40:05,285 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - 
+================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - 
+================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - 
+================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - 
+================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - 
+================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - 
+================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - 
+================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - 
+================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - 
+================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - 
+================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - 
+================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - 
+================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - 
+================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - 
+================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - 
+================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - 
+================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - STEP 1: Load Input CSV and Create Campaign Targets
+2026-04-01 17:40:05,285 - run_all - INFO - STEP 1: Load Input CSV and Create Campaign Targets
+2026-04-01 17:40:05,285 - run_all - INFO - STEP 1: Load Input CSV and Create Campaign Targets
+2026-04-01 17:40:05,285 - run_all - INFO - STEP 1: Load Input CSV and Create Campaign Targets
+2026-04-01 17:40:05,285 - run_all - INFO - STEP 1: Load Input CSV and Create Campaign Targets
+2026-04-01 17:40:05,285 - run_all - INFO - STEP 1: Load Input CSV and Create Campaign Targets
+2026-04-01 17:40:05,285 - run_all - INFO - STEP 1: Load Input CSV and Create Campaign Targets
+2026-04-01 17:40:05,285 - run_all - INFO - STEP 1: Load Input CSV and Create Campaign Targets
+2026-04-01 17:40:05,285 - run_all - INFO - STEP 1: Load Input CSV and Create Campaign Targets
+2026-04-01 17:40:05,285 - run_all - INFO - STEP 1: Load Input CSV and Create Campaign Targets
+2026-04-01 17:40:05,285 - run_all - INFO - STEP 1: Load Input CSV and Create Campaign Targets
+2026-04-01 17:40:05,285 - run_all - INFO - STEP 1: Load Input CSV and Create Campaign Targets
+2026-04-01 17:40:05,285 - run_all - INFO - STEP 1: Load Input CSV and Create Campaign Targets
+2026-04-01 17:40:05,285 - run_all - INFO - STEP 1: Load Input CSV and Create Campaign Targets
+2026-04-01 17:40:05,285 - run_all - INFO - STEP 1: Load Input CSV and Create Campaign Targets
+2026-04-01 17:40:05,285 - run_all - INFO - STEP 1: Load Input CSV and Create Campaign Targets
+2026-04-01 17:40:05,285 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - ================================================================================
+2026-04-01 17:40:05,285 - run_all - INFO - Reading input CSV: /private/var/folders/pb/x147ntzn0hl3kvbw54mlqwqh0000gn/T/pytest-of-javierlee/pytest-22/test_pipeline_execution_time_l0/test_input.csv
+2026-04-01 17:40:05,285 - run_all - INFO - Reading input CSV: /private/var/folders/pb/x147ntzn0hl3kvbw54mlqwqh0000gn/T/pytest-of-javierlee/pytest-22/test_pipeline_execution_time_l0/test_input.csv
+2026-04-01 17:40:05,285 - run_all - INFO - Reading input CSV: /private/var/folders/pb/x147ntzn0hl3kvbw54mlqwqh0000gn/T/pytest-of-javierlee/pytest-22/test_pipeline_execution_time_l0/test_input.csv
+2026-04-01 17:40:05,285 - run_all - INFO - Reading input CSV: /private/var/folders/pb/x147ntzn0hl3kvbw54mlqwqh0000gn/T/pytest-of-javierlee/pytest-22/test_pipeline_execution_time_l0/test_input.csv
+2026-04-01 17:40:05,285 - run_all - INFO - Reading input CSV: /private/var/folders/pb/x147ntzn0hl3kvbw54mlqwqh0000gn/T/pytest-of-javierlee/pytest-22/test_pipeline_execution_time_l0/test_input.csv
+2026-04-01 17:40:05,285 - run_all - INFO - Reading input CSV: /private/var/folders/pb/x147ntzn0hl3kvbw54mlqwqh0000gn/T/pytest-of-javierlee/pytest-22/test_pipeline_execution_time_l0/test_input.csv
+2026-04-01 17:40:05,285 - run_all - INFO - Reading input CSV: /private/var/folders/pb/x147ntzn0hl3kvbw54mlqwqh0000gn/T/pytest-of-javierlee/pytest-22/test_pipeline_execution_time_l0/test_input.csv
+2026-04-01 17:40:05,285 - run_all - INFO - Reading input CSV: /private/var/folders/pb/x147ntzn0hl3kvbw54mlqwqh0000gn/T/pytest-of-javierlee/pytest-22/test_pipeline_execution_time_l0/test_input.csv
+2026-04-01 17:40:05,285 - run_all - INFO - Reading input CSV: /private/var/folders/pb/x147ntzn0hl3kvbw54mlqwqh0000gn/T/pytest-of-javierlee/pytest-22/test_pipeline_execution_time_l0/test_input.csv
+2026-04-01 17:40:05,285 - run_all - INFO - Reading input CSV: /private/var/folders/pb/x147ntzn0hl3kvbw54mlqwqh0000gn/T/pytest-of-javierlee/pytest-22/test_pipeline_execution_time_l0/test_input.csv
+2026-04-01 17:40:05,285 - run_all - INFO - Reading input CSV: /private/var/folders/pb/x147ntzn0hl3kvbw54mlqwqh0000gn/T/pytest-of-javierlee/pytest-22/test_pipeline_execution_time_l0/test_input.csv
+2026-04-01 17:40:05,285 - run_all - INFO - Reading input CSV: /private/var/folders/pb/x147ntzn0hl3kvbw54mlqwqh0000gn/T/pytest-of-javierlee/pytest-22/test_pipeline_execution_time_l0/test_input.csv
+2026-04-01 17:40:05,285 - run_all - INFO - Reading input CSV: /private/var/folders/pb/x147ntzn0hl3kvbw54mlqwqh0000gn/T/pytest-of-javierlee/pytest-22/test_pipeline_execution_time_l0/test_input.csv
+2026-04-01 17:40:05,285 - run_all - INFO - Reading input CSV: /private/var/folders/pb/x147ntzn0hl3kvbw54mlqwqh0000gn/T/pytest-of-javierlee/pytest-22/test_pipeline_execution_time_l0/test_input.csv
+2026-04-01 17:40:05,285 - run_all - INFO - Reading input CSV: /private/var/folders/pb/x147ntzn0hl3kvbw54mlqwqh0000gn/T/pytest-of-javierlee/pytest-22/test_pipeline_execution_time_l0/test_input.csv
+2026-04-01 17:40:05,285 - run_all - INFO - Reading input CSV: /private/var/folders/pb/x147ntzn0hl3kvbw54mlqwqh0000gn/T/pytest-of-javierlee/pytest-22/test_pipeline_execution_time_l0/test_input.csv
+2026-04-01 17:40:05,286 - run_all - INFO - CSV loaded: 3 rows, 7 columns
+2026-04-01 17:40:05,286 - run_all - INFO - CSV loaded: 3 rows, 7 columns
+2026-04-01 17:40:05,286 - run_all - INFO - CSV loaded: 3 rows, 7 columns
+2026-04-01 17:40:05,286 - run_all - INFO - CSV loaded: 3 rows, 7 columns
+2026-04-01 17:40:05,286 - run_all - INFO - CSV loaded: 3 rows, 7 columns
+2026-04-01 17:40:05,286 - run_all - INFO - CSV loaded: 3 rows, 7 columns
+2026-04-01 17:40:05,286 - run_all - INFO - CSV loaded: 3 rows, 7 columns
+2026-04-01 17:40:05,286 - run_all - INFO - CSV loaded: 3 rows, 7 columns
+2026-04-01 17:40:05,286 - run_all - INFO - CSV loaded: 3 rows, 7 columns
+2026-04-01 17:40:05,286 - run_all - INFO - CSV loaded: 3 rows, 7 columns
+2026-04-01 17:40:05,286 - run_all - INFO - CSV loaded: 3 rows, 7 columns
+2026-04-01 17:40:05,286 - run_all - INFO - CSV loaded: 3 rows, 7 columns
+2026-04-01 17:40:05,286 - run_all - INFO - CSV loaded: 3 rows, 7 columns
+2026-04-01 17:40:05,286 - run_all - INFO - CSV loaded: 3 rows, 7 columns
+2026-04-01 17:40:05,286 - run_all - INFO - CSV loaded: 3 rows, 7 columns
+2026-04-01 17:40:05,286 - run_all - INFO - CSV loaded: 3 rows, 7 columns
+2026-04-01 17:40:05,286 - run_all - INFO - ✓ All required columns present
+2026-04-01 17:40:05,286 - run_all - INFO - ✓ All required columns present
+2026-04-01 17:40:05,286 - run_all - INFO - ✓ All required columns present
+2026-04-01 17:40:05,286 - run_all - INFO - ✓ All required columns present
+2026-04-01 17:40:05,286 - run_all - INFO - ✓ All required columns present
+2026-04-01 17:40:05,286 - run_all - INFO - ✓ All required columns present
+2026-04-01 17:40:05,286 - run_all - INFO - ✓ All required columns present
+2026-04-01 17:40:05,286 - run_all - INFO - ✓ All required columns present
+2026-04-01 17:40:05,286 - run_all - INFO - ✓ All required columns present
+2026-04-01 17:40:05,286 - run_all - INFO - ✓ All required columns present
+2026-04-01 17:40:05,286 - run_all - INFO - ✓ All required columns present
+2026-04-01 17:40:05,286 - run_all - INFO - ✓ All required columns present
+2026-04-01 17:40:05,286 - run_all - INFO - ✓ All required columns present
+2026-04-01 17:40:05,286 - run_all - INFO - ✓ All required columns present
+2026-04-01 17:40:05,286 - run_all - INFO - ✓ All required columns present
+2026-04-01 17:40:05,286 - run_all - INFO - ✓ All required columns present
+2026-04-01 17:40:05,287 - run_all - INFO - Converting TSE tickers to Bloomberg format...
+2026-04-01 17:40:05,287 - run_all - INFO - Converting TSE tickers to Bloomberg format...
+2026-04-01 17:40:05,287 - run_all - INFO - Converting TSE tickers to Bloomberg format...
+2026-04-01 17:40:05,287 - run_all - INFO - Converting TSE tickers to Bloomberg format...
+2026-04-01 17:40:05,287 - run_all - INFO - Converting TSE tickers to Bloomberg format...
+2026-04-01 17:40:05,287 - run_all - INFO - Converting TSE tickers to Bloomberg format...
+2026-04-01 17:40:05,287 - run_all - INFO - Converting TSE tickers to Bloomberg format...
+2026-04-01 17:40:05,287 - run_all - INFO - Converting TSE tickers to Bloomberg format...
+2026-04-01 17:40:05,287 - run_all - INFO - Converting TSE tickers to Bloomberg format...
+2026-04-01 17:40:05,287 - run_all - INFO - Converting TSE tickers to Bloomberg format...
+2026-04-01 17:40:05,287 - run_all - INFO - Converting TSE tickers to Bloomberg format...
+2026-04-01 17:40:05,287 - run_all - INFO - Converting TSE tickers to Bloomberg format...
+2026-04-01 17:40:05,287 - run_all - INFO - Converting TSE tickers to Bloomberg format...
+2026-04-01 17:40:05,287 - run_all - INFO - Converting TSE tickers to Bloomberg format...
+2026-04-01 17:40:05,287 - run_all - INFO - Converting TSE tickers to Bloomberg format...
+2026-04-01 17:40:05,287 - run_all - INFO - Converting TSE tickers to Bloomberg format...
+2026-04-01 17:40:05,287 - run_all - INFO - ✓ Created 3 CampaignTarget objects
+2026-04-01 17:40:05,287 - run_all - INFO - ✓ Created 3 CampaignTarget objects
+2026-04-01 17:40:05,287 - run_all - INFO - ✓ Created 3 CampaignTarget objects
+2026-04-01 17:40:05,287 - run_all - INFO - ✓ Created 3 CampaignTarget objects
+2026-04-01 17:40:05,287 - run_all - INFO - ✓ Created 3 CampaignTarget objects
+2026-04-01 17:40:05,287 - run_all - INFO - ✓ Created 3 CampaignTarget objects
+2026-04-01 17:40:05,287 - run_all - INFO - ✓ Created 3 CampaignTarget objects
+2026-04-01 17:40:05,287 - run_all - INFO - ✓ Created 3 CampaignTarget objects
+2026-04-01 17:40:05,287 - run_all - INFO - ✓ Created 3 CampaignTarget objects
+2026-04-01 17:40:05,287 - run_all - INFO - ✓ Created 3 CampaignTarget objects
+2026-04-01 17:40:05,287 - run_all - INFO - ✓ Created 3 CampaignTarget objects
+2026-04-01 17:40:05,287 - run_all - INFO - ✓ Created 3 CampaignTarget objects
+2026-04-01 17:40:05,287 - run_all - INFO - ✓ Created 3 CampaignTarget objects
+2026-04-01 17:40:05,287 - run_all - INFO - ✓ Created 3 CampaignTarget objects
+2026-04-01 17:40:05,287 - run_all - INFO - ✓ Created 3 CampaignTarget objects
+2026-04-01 17:40:05,287 - run_all - INFO - ✓ Created 3 CampaignTarget objects
+2026-04-01 17:40:05,287 - run_all - INFO - ✓ Loaded 3 campaign targets
+2026-04-01 17:40:05,287 - run_all - INFO - ✓ Loaded 3 campaign targets
+2026-04-01 17:40:05,287 - run_all - INFO - ✓ Loaded 3 campaign targets
+2026-04-01 17:40:05,287 - run_all - INFO - ✓ Loaded 3 campaign targets
+2026-04-01 17:40:05,287 - run_all - INFO - ✓ Loaded 3 campaign targets
+2026-04-01 17:40:05,287 - run_all - INFO - ✓ Loaded 3 campaign targets
+2026-04-01 17:40:05,287 - run_all - INFO - ✓ Loaded 3 campaign targets
+2026-04-01 17:40:05,287 - run_all - INFO - ✓ Loaded 3 campaign targets
+2026-04-01 17:40:05,287 - run_all - INFO - ✓ Loaded 3 campaign targets
+2026-04-01 17:40:05,287 - run_all - INFO - ✓ Loaded 3 campaign targets
+2026-04-01 17:40:05,287 - run_all - INFO - ✓ Loaded 3 campaign targets
+2026-04-01 17:40:05,287 - run_all - INFO - ✓ Loaded 3 campaign targets
+2026-04-01 17:40:05,287 - run_all - INFO - ✓ Loaded 3 campaign targets
+2026-04-01 17:40:05,287 - run_all - INFO - ✓ Loaded 3 campaign targets
+2026-04-01 17:40:05,287 - run_all - INFO - ✓ Loaded 3 campaign targets
+2026-04-01 17:40:05,287 - run_all - INFO - ✓ Loaded 3 campaign targets
+2026-04-01 17:40:05,288 - run_all - INFO - 
+DRY RUN MODE: Stopping before Bloomberg queries
+2026-04-01 17:40:05,288 - run_all - INFO - 
+DRY RUN MODE: Stopping before Bloomberg queries
+2026-04-01 17:40:05,288 - run_all - INFO - 
+DRY RUN MODE: Stopping before Bloomberg queries
+2026-04-01 17:40:05,288 - run_all - INFO - 
+DRY RUN MODE: Stopping before Bloomberg queries
+2026-04-01 17:40:05,288 - run_all - INFO - 
+DRY RUN MODE: Stopping before Bloomberg queries
+2026-04-01 17:40:05,288 - run_all - INFO - 
+DRY RUN MODE: Stopping before Bloomberg queries
+2026-04-01 17:40:05,288 - run_all - INFO - 
+DRY RUN MODE: Stopping before Bloomberg queries
+2026-04-01 17:40:05,288 - run_all - INFO - 
+DRY RUN MODE: Stopping before Bloomberg queries
+2026-04-01 17:40:05,288 - run_all - INFO - 
+DRY RUN MODE: Stopping before Bloomberg queries
+2026-04-01 17:40:05,288 - run_all - INFO - 
+DRY RUN MODE: Stopping before Bloomberg queries
+2026-04-01 17:40:05,288 - run_all - INFO - 
+DRY RUN MODE: Stopping before Bloomberg queries
+2026-04-01 17:40:05,288 - run_all - INFO - 
+DRY RUN MODE: Stopping before Bloomberg queries
+2026-04-01 17:40:05,288 - run_all - INFO - 
+DRY RUN MODE: Stopping before Bloomberg queries
+2026-04-01 17:40:05,288 - run_all - INFO - 
+DRY RUN MODE: Stopping before Bloomberg queries
+2026-04-01 17:40:05,288 - run_all - INFO - 
+DRY RUN MODE: Stopping before Bloomberg queries
+2026-04-01 17:40:05,288 - run_all - INFO - 
+DRY RUN MODE: Stopping before Bloomberg queries

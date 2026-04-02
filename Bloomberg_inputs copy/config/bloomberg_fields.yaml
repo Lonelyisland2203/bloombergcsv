@@ -1,0 +1,515 @@
+# Bloomberg Field Configuration for Activist Data Pipeline
+# Complete specification of 58 data fields organized by Bloomberg override type
+#
+# Override Types:
+#   - FUND_PER: Fiscal period override (e.g., "FY2021" for fiscal year ending 2021)
+#   - END_DT_OVERRIDE: Market date override (e.g., "20210331" for snapshot as of March 31, 2021)
+#   - none: No override needed (current/static data)
+#   - bulk: BulkReferenceDataRequest (returns table/multi-row data)
+
+# ==============================================================================
+# GROUP 1: VALUATION METRICS (Market-Date-Sensitive)
+# ==============================================================================
+# Override: END_DT_OVERRIDE (as-of snapshot date)
+# Description: Market-based valuation multiples that change daily
+
+valuation_metrics:
+  override_type: END_DT_OVERRIDE
+  description: "Market valuation multiples and ratios"
+  fields:
+    - name: PX_TO_BOOK_RATIO
+      description: "Price-to-Book Ratio (PBR)"
+      required: true
+      data_type: float
+      typical_range: [0.1, 10.0]
+      notes: "Critical for activist targeting - low PBR signals undervaluation"
+
+    - name: PE_RATIO
+      description: "Price-to-Earnings Ratio (Trailing 12M)"
+      required: true
+      data_type: float
+      typical_range: [0.0, 50.0]
+      notes: "Trailing P/E based on last reported earnings"
+
+    - name: BEST_PE_RATIO
+      description: "Price-to-Earnings Ratio (Forward Consensus)"
+      required: false
+      data_type: float
+      typical_range: [0.0, 50.0]
+      notes: "Forward P/E based on analyst consensus estimates"
+
+    - name: BEST_CUR_EV_TO_EBITDA
+      description: "Enterprise Value to EBITDA"
+      required: true
+      data_type: float
+      typical_range: [0.0, 20.0]
+      notes: "Capital structure-adjusted valuation metric"
+
+    - name: CUR_EV_TO_T12M_SALES
+      description: "Enterprise Value to Revenue (TTM)"
+      required: false
+      data_type: float
+      typical_range: [0.0, 10.0]
+      notes: "Useful for low-margin or loss-making companies"
+
+    - name: EQY_DVD_YLD_IND
+      description: "Dividend Yield (%)"
+      required: true
+      data_type: float
+      typical_range: [0.0, 10.0]
+      notes: "Indicated annual dividend yield"
+
+    - name: DVD_PAYOUT_RATIO
+      description: "Dividend Payout Ratio (%)"
+      required: false
+      data_type: float
+      typical_range: [0.0, 100.0]
+      notes: "Dividends as % of earnings - low ratio signals opportunity"
+
+    - name: CUR_MKT_CAP
+      description: "Market Capitalization"
+      required: true
+      data_type: float
+      typical_range: [1000000000, 10000000000000]
+      notes: "Total market value in local currency (JPY)"
+
+    - name: HIGH_52WEEK
+      description: "52-Week High Price"
+      required: false
+      data_type: float
+      notes: "Highest price in past year"
+
+    - name: LOW_52WEEK
+      description: "52-Week Low Price"
+      required: false
+      data_type: float
+      notes: "Lowest price in past year"
+
+    - name: BEST_TARGET_PRICE
+      description: "Analyst Consensus Target Price"
+      required: false
+      data_type: float
+      notes: "Mean analyst 12-month target price"
+
+# ==============================================================================
+# GROUP 2: PROFITABILITY METRICS (Fiscal-Period-Based)
+# ==============================================================================
+# Override: FUND_PER (fiscal year period)
+# Description: Operating performance metrics tied to fiscal reporting periods
+
+profitability_metrics:
+  override_type: FUND_PER
+  description: "Return metrics and profitability ratios"
+  fields:
+    - name: RETURN_COM_EQY
+      description: "Return on Equity (ROE %)"
+      required: true
+      data_type: float
+      typical_range: [-50.0, 50.0]
+      notes: "Critical profitability metric - net income / average equity"
+
+    - name: RETURN_ON_ASSET
+      description: "Return on Assets (ROA %)"
+      required: true
+      data_type: float
+      typical_range: [-30.0, 30.0]
+      notes: "Net income / average total assets"
+
+    - name: RETURN_ON_INV_CAPITAL
+      description: "Return on Invested Capital (ROIC %)"
+      required: true
+      data_type: float
+      typical_range: [-30.0, 50.0]
+      notes: "Most pure measure of capital efficiency"
+
+    - name: OPER_MARGIN
+      description: "Operating Margin (%)"
+      required: true
+      data_type: float
+      typical_range: [-20.0, 40.0]
+      notes: "Operating income / revenue"
+
+    - name: PROF_MARGIN
+      description: "Net Profit Margin (%)"
+      required: true
+      data_type: float
+      typical_range: [-20.0, 30.0]
+      notes: "Net income / revenue"
+
+# ==============================================================================
+# GROUP 3: BALANCE SHEET METRICS (Fiscal-Period-Based)
+# ==============================================================================
+# Override: FUND_PER
+# Description: Financial position metrics as of fiscal period end
+
+balance_sheet_metrics:
+  override_type: FUND_PER
+  description: "Balance sheet items - cash, investments, debt, equity"
+  fields:
+    - name: BS_CASH_NEAR_CASH_ITEM
+      description: "Cash & Cash Equivalents"
+      required: true
+      data_type: float
+      notes: "Most liquid assets - critical for net cash calculation"
+
+    - name: BS_MKT_SEC_OTHER_ST_INVEST
+      description: "Short-Term Investments"
+      required: true
+      data_type: float
+      notes: "Marketable securities and ST investments"
+
+    - name: BS_LONG_TERM_INVESTMENTS
+      description: "Long-Term Investments"
+      required: true
+      data_type: float
+      notes: "Strategic investments and cross-shareholdings (common in Japan)"
+
+    - name: SHORT_AND_LONG_TERM_DEBT
+      description: "Total Debt"
+      required: true
+      data_type: float
+      notes: "Sum of short-term and long-term debt"
+
+    - name: NET_DEBT
+      description: "Net Debt"
+      required: true
+      data_type: float
+      notes: "Total Debt - Cash. Negative value = net cash position"
+
+    - name: TOT_EQUITY
+      description: "Total Shareholders' Equity"
+      required: true
+      data_type: float
+      notes: "Book value of equity"
+
+    - name: PCT_TREASURY_SHARES
+      description: "Treasury Shares (%)"
+      required: false
+      data_type: float
+      typical_range: [0.0, 20.0]
+      notes: "Shares held by company itself - buyback indicator"
+
+# ==============================================================================
+# GROUP 4: INCOME STATEMENT METRICS (Fiscal-Period-Based)
+# ==============================================================================
+# Override: FUND_PER
+# Description: Revenue, earnings, and per-share metrics
+
+income_statement_metrics:
+  override_type: FUND_PER
+  description: "Income statement items and earnings metrics"
+  fields:
+    - name: TRAIL_12M_SALES
+      description: "Revenue (Trailing 12 Months)"
+      required: true
+      data_type: float
+      notes: "Total revenue - most recent 12 months"
+
+    - name: TRAIL_12M_OPER_INC
+      description: "Operating Income (TTM)"
+      required: true
+      data_type: float
+      notes: "Earnings before interest and taxes (EBIT)"
+
+    - name: TRAIL_12M_NET_INC
+      description: "Net Income (TTM)"
+      required: true
+      data_type: float
+      notes: "Bottom-line profit after all expenses"
+
+    - name: TRAIL_12M_EPS
+      description: "Earnings Per Share (TTM)"
+      required: true
+      data_type: float
+      notes: "Net income / weighted average shares outstanding"
+
+    - name: BEST_EPS
+      description: "EPS (Forward Consensus)"
+      required: false
+      data_type: float
+      notes: "Analyst consensus forward 12M EPS estimate"
+
+    - name: BEST_EST_CNT
+      description: "Number of Analyst Estimates"
+      required: false
+      data_type: integer
+      notes: "Coverage breadth indicator"
+
+    - name: NUM_OF_SEGMENTS
+      description: "Number of Business Segments"
+      required: false
+      data_type: integer
+      typical_range: [1, 10]
+      notes: "Segment count - complexity indicator (spinoff opportunity)"
+
+# ==============================================================================
+# GROUP 5: MARKET DATA & LIQUIDITY (Market-Date-Sensitive)
+# ==============================================================================
+# Override: END_DT_OVERRIDE
+# Description: Share-related market data
+
+market_data_metrics:
+  override_type: END_DT_OVERRIDE
+  description: "Share count, float, volume, and risk metrics"
+  fields:
+    - name: EQY_SH_OUT
+      description: "Shares Outstanding"
+      required: true
+      data_type: float
+      notes: "Total shares issued and outstanding"
+
+    - name: EQY_FREE_FLOAT_PCT
+      description: "Free Float (%)"
+      required: true
+      data_type: float
+      typical_range: [0.0, 100.0]
+      notes: "% of shares available for public trading"
+
+    - name: VOLUME_AVG_30D
+      description: "30-Day Average Daily Volume"
+      required: false
+      data_type: float
+      notes: "Liquidity indicator"
+
+    - name: SHORT_INT_RATIO
+      description: "Short Interest Ratio"
+      required: false
+      data_type: float
+      notes: "Days to cover short positions"
+
+    - name: BETA_ADJ_OVERRIDABLE
+      description: "Beta (vs. TOPIX)"
+      required: false
+      data_type: float
+      typical_range: [0.0, 3.0]
+      notes: "Systematic risk measure vs. Tokyo Stock Price Index"
+
+# ==============================================================================
+# GROUP 6: OWNERSHIP STRUCTURE (Market-Date-Sensitive)
+# ==============================================================================
+# Override: END_DT_OVERRIDE
+# Description: Ownership concentration and composition
+
+ownership_metrics:
+  override_type: END_DT_OVERRIDE
+  description: "Shareholder composition percentages"
+  fields:
+    - name: EQY_INST_PCT_SH_OUT
+      description: "Institutional Ownership (%)"
+      required: true
+      data_type: float
+      typical_range: [0.0, 100.0]
+      notes: "% held by institutional investors"
+
+    - name: EQY_FOREIGN_OWNERSHIP_PCT
+      description: "Foreign Ownership (%)"
+      required: true
+      data_type: float
+      typical_range: [0.0, 100.0]
+      notes: "% held by non-Japanese investors (may not be available for all stocks)"
+
+    - name: INSIDER_OWNERSHIP_PCT
+      description: "Insider/Family Ownership (%)"
+      required: false
+      data_type: float
+      typical_range: [0.0, 100.0]
+      notes: "% held by insiders, management, and founding families"
+
+# ==============================================================================
+# GROUP 7: GOVERNANCE METRICS (Static/Current)
+# ==============================================================================
+# Override: none
+# Description: Corporate governance characteristics (current state)
+
+governance_metrics:
+  override_type: none
+  description: "Board composition and fiscal calendar"
+  fields:
+    - name: BOARD_SIZE
+      description: "Number of Board Members"
+      required: false
+      data_type: integer
+      typical_range: [5, 20]
+      notes: "Total board size - may not be available for Standard/Growth market segments"
+
+    - name: PCT_INDEPENDENT_DIRECTORS
+      description: "Independent Director Ratio (%)"
+      required: false
+      data_type: float
+      typical_range: [0.0, 100.0]
+      notes: "% of board that is independent - Prime market companies required >33%"
+
+    - name: FISCAL_YEAR_END_MONTH_DE
+      description: "Fiscal Year-End Month"
+      required: true
+      data_type: integer
+      typical_range: [1, 12]
+      notes: "Month when fiscal year ends (3 = March, 12 = December, etc.)"
+
+# ==============================================================================
+# GROUP 8: BULK DATA FIELDS (Separate BDS Requests)
+# ==============================================================================
+# Override: bulk (uses BulkReferenceDataRequest)
+# Description: Multi-row table data requiring separate request type
+
+bulk_data_fields:
+  override_type: bulk
+  description: "Table-structured data (ownership, corporate actions)"
+  fields:
+    - name: TOP_20_HOLDERS_PUBLIC_FILINGS
+      description: "Top 20 Shareholders Table"
+      required: true
+      data_type: table
+      returns:
+        - holder_name
+        - holder_type
+        - shares_held
+        - percent_held
+        - filing_date
+      notes: "Most recent major shareholder filings - critical for cross-shareholding analysis"
+
+    - name: DVD_HIST_ALL
+      description: "Complete Dividend History"
+      required: true
+      data_type: table
+      returns:
+        - ex_date
+        - declared_date
+        - record_date
+        - payable_date
+        - dividend_amount
+        - dividend_type
+        - dividend_freq
+      notes: "All dividend announcements and payments"
+
+    - name: SHARE_REPURCHASE_SUMMARY
+      description: "Share Buyback Program History"
+      required: false
+      data_type: table
+      returns:
+        - announcement_date
+        - shares_sought
+        - value_sought
+        - start_date
+        - end_date
+        - actual_shares
+        - actual_value
+      notes: "Buyback announcements and completions"
+
+    - name: STOCK_SPLIT_HIST
+      description: "Stock Split History"
+      required: false
+      data_type: table
+      returns:
+        - effective_date
+        - split_factor
+        - split_type
+      notes: "All stock splits and reverse splits"
+
+    - name: MERGERS_AND_ACQUISITIONS
+      description: "M&A Transaction History"
+      required: false
+      data_type: table
+      returns:
+        - announcement_date
+        - effective_date
+        - transaction_type
+        - counterparty
+        - deal_value
+        - status
+      notes: "Acquisitions, divestitures, and merger activity"
+
+# ==============================================================================
+# FIELD EXTRACTION WORKFLOW
+# ==============================================================================
+# Recommended extraction sequence to minimize Bloomberg API calls:
+#
+# STEP 1: Determine fiscal year-end for all securities
+#   - Query: FISCAL_YEAR_END_MONTH_DE (no override)
+#   - Purpose: Compute FUND_PER override strings and snapshot dates
+#
+# STEP 2: Extract fundamental data (single batch per override type)
+#   Batch 2A: FUND_PER override fields
+#     - profitability_metrics
+#     - balance_sheet_metrics
+#     - income_statement_metrics
+#
+#   Batch 2B: END_DT_OVERRIDE fields
+#     - valuation_metrics
+#     - market_data_metrics
+#     - ownership_metrics
+#
+#   Batch 2C: No override fields
+#     - governance_metrics
+#
+# STEP 3: Extract bulk data (separate BDS requests per field)
+#   - TOP_20_HOLDERS_PUBLIC_FILINGS
+#   - DVD_HIST_ALL
+#   - SHARE_REPURCHASE_SUMMARY
+#   - STOCK_SPLIT_HIST
+#   - MERGERS_AND_ACQUISITIONS
+#
+# STEP 4: Post-processing (derived fields)
+#   - net_cash = BS_CASH + BS_ST_INVEST - TOTAL_DEBT
+#   - net_cash_to_market_cap = net_cash / CUR_MKT_CAP
+#   - cross_shareholding_ratio = sum(% held by "Corporation" type holders)
+#
+# ==============================================================================
+# JAPANESE MARKET SPECIFIC NOTES
+# ==============================================================================
+#
+# 1. Fiscal Year-End Distribution:
+#    - ~70% of Japanese companies: March 31 FYE
+#    - ~10%: December 31 FYE
+#    - ~20%: Other (Sept 30, June 30, etc.)
+#
+# 2. Market Segments & Data Availability:
+#    - Prime Market: Full data coverage for all fields
+#    - Standard Market: Governance fields may be sparse
+#    - Growth Market: Many governance and ownership fields unavailable
+#
+# 3. Cross-Shareholding Context:
+#    - Japanese companies often hold equity stakes in business partners
+#    - Activists target companies with high cross-shareholding for unlock
+#    - TOP_20_HOLDERS with type="Corporation" indicates cross-shareholding
+#
+# 4. Foreign Ownership Limits:
+#    - Some companies have foreign ownership restrictions
+#    - EQY_FOREIGN_OWNERSHIP_PCT may cap at regulatory limit
+#    - Validate against TOP_20_HOLDERS for discrepancies
+#
+# 5. Dividend Policy Norms:
+#    - Japanese companies historically conservative on dividends
+#    - Payout ratios <30% common (vs. 50-60% in US)
+#    - Low payout ratio = activist opportunity for dividend increase
+#
+# ==============================================================================
+# VALIDATION & QUALITY CHECKS
+# ==============================================================================
+#
+# Post-extraction validation rules:
+#
+# 1. Critical Field Coverage:
+#    - PX_TO_BOOK_RATIO, RETURN_COM_EQY, CUR_MKT_CAP, NET_DEBT must be present
+#    - Flag securities with >30% of critical fields missing
+#
+# 2. Range Validation:
+#    - PBR: 0.1 to 10 (outliers flag for manual review)
+#    - ROE: -50% to +50%
+#    - Market Cap: > 0
+#    - Net Cash / Market Cap: -1.0 to +1.0
+#
+# 3. Fiscal Period Alignment:
+#    - Verify snapshot_date matches expected FY-end
+#    - Check for off-by-one year errors in FUND_PER override
+#
+# 4. Cross-Reference Consistency:
+#    - If NET_DEBT is null but components available, recompute
+#    - Validate EQY_SH_OUT * price ~= CUR_MKT_CAP (within 5%)
+#
+# 5. Bulk Data Completeness:
+#    - TOP_20_HOLDERS should have ≥10 entries per company
+#    - DVD_HIST_ALL should have ≥1 entry (dividend-paying companies)
+#    - Flag companies with zero entries for manual review
+#
+# ==============================================================================

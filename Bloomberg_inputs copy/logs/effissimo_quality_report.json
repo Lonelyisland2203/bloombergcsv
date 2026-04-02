@@ -1,0 +1,54 @@
+{
+  "total_securities": 5,
+  "critical_field_coverage": {
+    "PX_TO_BOOK_RATIO": 0.8,
+    "RETURN_COM_EQY": 1.0,
+    "CUR_MKT_CAP": 1.0,
+    "NET_DEBT": 0.8,
+    "TRAIL_12M_SALES": 0.8
+  },
+  "range_violations": [
+    {
+      "ticker": "8002 JP Equity",
+      "field": "PX_TO_BOOK_RATIO",
+      "value": 0.05,
+      "min_expected": 0.1,
+      "max_expected": 10.0,
+      "severity": "warning"
+    },
+    {
+      "ticker": "8002 JP Equity",
+      "field": "RETURN_COM_EQY",
+      "value": 60.0,
+      "min_expected": -50.0,
+      "max_expected": 50.0,
+      "severity": "warning"
+    },
+    {
+      "ticker": "8002 JP Equity",
+      "field": "CUR_MKT_CAP",
+      "value": -100,
+      "min_expected": 0.0,
+      "max_expected": Infinity,
+      "severity": "error"
+    },
+    {
+      "ticker": "8002 JP Equity",
+      "field": "net_cash_to_market_cap",
+      "value": 1.5,
+      "min_expected": -1.0,
+      "max_expected": 1.0,
+      "severity": "warning"
+    }
+  ],
+  "recommended_manual_review": [
+    "8001 JP Equity"
+  ],
+  "overall_quality_score": 0.8613333333333333,
+  "extraction_timestamp": "2026-04-01T17:25:46.785352",
+  "notes": [
+    "1 ERROR-level range violations detected",
+    "3 WARNING-level range violations detected",
+    "Snapshot dates range: 2021-03-31 to 2021-03-31"
+  ]
+}

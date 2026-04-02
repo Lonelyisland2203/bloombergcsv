@@ -1,0 +1,25 @@
+# Bloomberg Activist Data Pipeline - Python Dependencies
+# Installation Date: 2026-04-01
+
+# Core dependencies (install via pip)
+pandas==2.3.2
+openpyxl==3.1.5
+pyyaml==6.0.2
+
+# Bloomberg API (requires manual installation)
+# blpapi>=3.8.0
+#
+# Installation instructions:
+# 1. Download Bloomberg API from: https://www.bloomberg.com/professional/support/api-library/
+# 2. Or use conda: conda install -c conda-forge blpapi
+# 3. Or download from Bloomberg Terminal: WAPI<GO> → Downloads → Python API
+#
+# For macOS with Python 3.13, download the appropriate wheel from Bloomberg
+# and install with: pip install /path/to/blpapi-*.whl
+
+# Optional: for development and testing
+pytest>=8.0.0
+pytest-cov>=5.0.0
+mypy>=1.11.0
+flake8>=7.0.0
+black>=24.0.0

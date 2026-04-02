@@ -1,0 +1,31 @@
+{
+  "validation_timestamp": "2026-04-01T16:03:35.757508",
+  "csv_file": "effissimo_summary_by_company.csv",
+  "row_count": 30,
+  "column_count": 10,
+  "columns": [
+    "target_company",
+    "target_ticker",
+    "total_filings",
+    "first_filing",
+    "last_filing",
+    "max_ownership_pct",
+    "min_ownership_pct",
+    "first_filing_parsed",
+    "last_filing_parsed",
+    "campaign_duration_days"
+  ],
+  "ticker_format_issues": 0,
+  "null_value_count": 0,
+  "date_parse_success": true,
+  "ownership_range_valid": true,
+  "campaign_statistics": {
+    "total_targets": 30,
+    "filing_count_min": 1,
+    "filing_count_max": 115,
+    "campaign_duration_days_avg": 1087.5333333333333,
+    "active_campaigns": 16,
+    "exited_campaigns": 14
+  },
+  "validation_status": "PASSED"
+}

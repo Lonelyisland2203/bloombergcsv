@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(python3:*)",
+      "Bash(pip3 install:*)",
+      "Bash(tree:*)",
+      "Bash(wc:*)",
+      "Bash(python -m pytest:*)",
+      "Bash(ls -lh \"/Users/javierlee/Activism Playbook Raw Inputs/raw_inputs/Bloomberg_inputs/output/\"*.xlsx)",
+      "Bash(ls:*)",
+      "Bash(python:*)"
+    ]
+  }
+}
